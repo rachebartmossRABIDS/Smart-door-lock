@@ -1,0 +1,59 @@
+# ===== Keil MDK build output =====
+Objects/
+Listings/
+DebugConfig/
+
+# Build artifacts (in case they appear outside the dirs above)
+*.o
+*.obj
+*.crf
+*.d
+*.axf
+*.elf
+*.lnp
+*.dep
+*.tra
+*.iex
+*.plg
+*.rpt
+*.lst
+*.map
+*.sct
+*.htm
+*.build_log.htm
+*.__i
+*.ddk
+*.edk
+*.mpf
+*.mpj
+*.omf
+*.bak
+JLinkLog.txt
+
+# ===== Keil per-user files =====
+# GUI layout / window state is specific to each developer and machine
+*.uvguix
+*.uvguix.*
+*.uvgui.*
+*.uvguix.bak
+
+# ===== Editor / IDE temp & backup files =====
+*.tmp
+*.swp
+*~
+.vscode/
+.idea/
+
+# ===== Local-only secrets (NEVER commit) =====
+# Real Gizwits PRODUCT_KEY / PRODUCT_SECRET are kept here locally so you can
+# restore them before building/flashing. This file is ignored by git.
+*.local.txt
+*.local.h
+*.secret
+gizwits_credentials.local.txt
+
+# ===== OS files =====
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
